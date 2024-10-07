@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title id="title">Course - Get Ready</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.svg" rel="icon">
+  <link href="../assets/img/favicon.svg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QV5497TDTG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QV5497TDTG');
+  </script>
+
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MSD7ZWDL');</script>
+  <!-- End Google Tag Manager -->
+
+
+</head>
+
+<body class="service-details-page">
+
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSD7ZWDL" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  <!-- Modal form section -->
+  <div id="overlay">
+    <div id="popup">
+      <div>
+        <h2><a class="popup-close-btn" onclick="closepopup()">×</a></h2>
+      </div>
+      <div class="form2 ss px-4">
+        <div style="text-align: center; font-size: 22px; color: chartreuse;">
+          Inform Us
+        </div>
+        <!-- Start of Form -->
+        <form action="https://gogetready.in/forms/careerCounsiling.php" method="POST" id="popupForm">
+          <div class="mb-3">
+            <input name="txtName" type="text" id="txtName" class="form-control" placeholder="Full Name" required="true">
+          </div>
+          <div class="mb-3">
+            <input name="txtPhone" type="text" id="txtPhone" class="form-control" placeholder="Phone Number"
+              required="true">
+          </div>
+          <div class="mb-3">
+            <input name="txtMail" type="email" id="txtMail" class="form-control" placeholder="Email" required="true">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" placeholder="Tell us about your thoughts." name="txtMessage" rows="3"
+              id="txtMessage" required=""></textarea>
+          </div>
+          <div class="mb-3">
+            <input name="txtlocation" type="text" id="txtlocation" class="form-control"
+              placeholder="Enter Your Location" required>
+          </div>
+          <div class="mb-3" style="text-align: center;">
+            <input type="submit" name="btnSavee" value="Submit" id="btnSavee" class="btn btn-default">
+          </div>
+        </form>
+        <!-- End of Form -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="../index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="../assets/img/logo2.png" alt="">
+        <h1 class="sitename">Get Ready</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about-us.html">About</a></li>
+          <li class="dropdown active"><a href="#"><span>Courses</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="../gov-courses.html">Govt. Job Preparation</a></li>
+              <li><a href="../corporate-job.html">Corporate Job Preparation</a></li>
+            </ul>
+          </li>
+          <li><a href="../our-methodology.html">Our Methodology</a></li>
+          <!-- <li><a href="courses.html">Exam Calendar</a></li> -->
+          <!-- <li><a href="blogs.html">Blog</a></li> -->
+          <li><a href="../contact-us.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 id="service-name" class="mb-2 mb-lg-0">Session Plan</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li id="course-name" class="current">Session Plan</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details-new" class="service-details-new section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <img id="courseImage" src="../studentsCorner/assets/img/session-plan.svg" alt=""
+              class="img-fluid services-img">
+            <h3>Get Well Structured Learning Program of Every Courses at GET READY</h3>
+            <p>
+              At GET READY, we offer meticulously designed learning programs tailored for each course to ensure
+              comprehensive
+              understanding and effective preparation. Our curriculum is structured to cover all key topics
+              systematically, helping
+              students build a strong foundation and excel in their exams. With expert guidance, quality study material,
+              and
+              personalized attention, GET READY ensures a seamless learning journey for every aspirant.
+            </p>
+
+            <h3>Session Plan</h3>
+
+            <!-- Month 1 -->
+            <p style="margin-left: 5px; font-size: 20px;"><b>Month 1</b></p>
+            <div>
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 1</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M1.1):</b> Percentage</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E1.1):</b> Voice Part - 1</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M1.2):</b> Profit & Loss</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R1.1):</b> Coding & Decoding</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C1.1):</b> Computer Part - 1</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T1.1) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 2</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M2.3):</b> Ratio & Proportion</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E2.2):</b> Voice Part-2 & Preposition</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M2.4):</b> Rivision of M1.1 & M1.2</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R2.2):</b> Direction, Analogy &
+                    Classification</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C2.2):</b> Computer Part - 2</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T2.2) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 3</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M3.5):</b> Partnership, HCF, LCM</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E3.3):</b> Narration & Degree</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M3.6):</b> Rivision of M1.2, M2.3 & M3.5</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R3.3):</b> Seating Arrangement & Ranking
+                    Test</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C3.3):</b> Marketing & Banking Part-1</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T2.2) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 4</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M4.7):</b> Average, Mixture & Alligation</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E4.4):</b> Article (A, An, The)</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M4.8):</b> Revision of M4.7</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R4.4):</b> Blood Relation & Coded
+                    Inequality</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C4.4):</b> Marketing & Banking Part-2</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T2.2) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+            </div>
+            <!-- End Of Month 1 -->
+
+            <!-- Month 2 -->
+
+            <p style="margin-left: 5px; font-size: 20px;"><b>Month 2</b></p>
+            <div>
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 5</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M5.9):</b> Time & Work</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E5.5):</b> Parts of Speech - 1</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M5.10):</b> Revision of M4.7 & M4.8</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R5.5):</b> Syllogism</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C5.5):</b> Computer Part - 3</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T5.5) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 6</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M6.11):</b> Time & Distance (Train, Boat &
+                    Streams)</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E6.6):</b> Part of Speech - 2</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M6.12):</b> Rivision of M5.9</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R6.6):</b> Statements & Assumptions,
+                    Arguments,
+                    Dice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C6.6):</b> Computer Part-4</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T6.6) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 7</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M7.13):</b> Mensuration & Geometry</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E7.7):</b> Reading Comprehension</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M7.14):</b> Rivision of M6.11</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R7.7):</b> Statement & Courses of Action,
+                    Conclusions, Cube</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C7.7):</b> Marketing & Banking Part-3</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T7.7) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 8</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M8.15):</b> Permutation & Combination</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E8.8):</b> Close Test & Jumble Words</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M8.16):</b> Revision of M7.13</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R8.8):</b> Input - Output</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Computer (C8.8):</b> Marketing & Banking Part-4</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T8.8) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+            </div>
+            <!-- End of Month 2 -->
+
+            <!-- Month 3 -->
+
+            <p style="margin-left: 5px; font-size: 20px;"><b>Month 3</b></p>
+            <div>
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 9</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M9.17):</b> Probablity & Trigonometry</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E9.9):</b> Word Roots, Part-1</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M9.18):</b> Revision of M9.17 & Algebra</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R9.9):</b> Non Verbal, Part-1</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G9.1):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T8.8) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 10</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M10.19):</b> Number System</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E10.10):</b> Word Roots, Part-2</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Maths (M10.20):</b> Simplification</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R10.10):</b> Non Verbal, Part-2</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G10.2):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T6.6) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 11</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M11.21):</b> Revision & Practice</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E11.11):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G11.3):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R11.11):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G11.4):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T7.7) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 12</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M12.22):</b> Revision & Practice</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E12.12):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G12.5):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R12.12):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G12.6):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T7.7) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+            </div>
+            <!-- End of Month 3 -->
+
+            <!-- Month 4 -->
+
+            <p style="margin-left: 5px; font-size: 20px;"><b>Month 4</b></p>
+            <div>
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 13</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M13.23):</b> Revision & Practice</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E13.13):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G13.6):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R13.13):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G13.7):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T13.13) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 14</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Maths (M14.24):</b> Revision & Practice</span></li>
+                <li><i class="bi bi-check-circle"></i> <span><b>English (E14.14):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G14.8):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Reasoning (R14.14):</b> Revision & Practice</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>General Awareness (G14.9):</b> General Awareness</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T14.14) - 1 Hr:</b>Maths (50 Q), Reasoning
+                    (20Q), English (20Q), Computer (10Q) = Total 100Q</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 15</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Test (T15.1) - 2.5 Hrs:</b> Mock Test 01</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T15.2) - 2.5 Hrs:</b> Mock Test 02</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T15.3) - 2.5 Hrs:</b> Mock Test 03</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T15.4) - 2.5 Hrs:</b> Mock Test 04</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T15.5) - 2.5 Hrs:</b> Mock Test 05</span>
+                </li>
+              </ul>
+
+              <p style="margin-left: 10px; font-size: 18px;"><b>Week 16</b></p>
+              <ul style="margin-left: 10px;">
+                <li><i class=" bi bi-check-circle"></i> <span><b>Test (T16.6) - 2.5 Hrs:</b> Mock Test 06</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T16.7) - 2.5 Hrs:</b> Mock Test 07</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T16.8) - 2.5 Hrs:</b> Mock Test 08</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T16.9) - 2.5 Hrs:</b> Mock Test 09</span>
+                </li>
+                <li><i class="bi bi-check-circle"></i> <span><b>Test (T16.10) - 2.5 Hrs:</b> Mock Test 10</span>
+                </li>
+              </ul>
+            </div>
+            <!-- End of Month 3 -->
+
+            <div class="enrollCourse">
+              <a class="btn-enrollCourse" style="cursor: pointer; margin-right: 2px;" onclick="openpopup()">Course
+                Enquery</a>
+              <a class="btn-enrollCourse" style="cursor: pointer; margin-left: 2px;" href="tel:+919123772360">
+                <i class="bi bi-telephone"></i> Contact Our Executive</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Course Details</h4>
+              <div class="services-list">
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Duration: 4 Months</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Interactive classes: 32</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Study Material: Printed Handouts</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Teacher will teach in: English &
+                    Bengali</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Weekly Class Test</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Monthly Exam: 4 Monthly Exams</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Interview Preparation: As per
+                    schedule</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Study Plan</h4>
+              <div class="download-catalog">
+                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Download Study Plan</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
+                <span>
+                  <a href="tel:+919123772360">+91 91237 72360</a>
+                </span>
+              </p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                  href="mailto:info@gogetready.in">info@gogetready.in</a></p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Does GET READY prepare a candidate for all types of Govt. Service?</h3>
+                <div class="faq-content">
+                  <p>Through its popular and successful courses across offline modes GET READY prepares its students for
+                    all the
+                    competitive examinations of Govt. Service</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>What about the chance of success?</h3>
+                <div class="faq-content">
+                  <p>At GET READY, we focus on building a strong foundation, which is essential for cracking any
+                    competitive examination. Our
+                    students have consistently shown excellent results by mastering the basics and moving to advanced
+                    concepts with
+                    confidence. With dedicated efforts, regular assessments, and the right guidance, your chances of
+                    success significantly
+                    increase.
+                    <br>
+                    However, success depends on a combination of our structured training and your hard work,
+                    consistency, and commitment. We
+                    provide all the necessary tools and support, but your dedication is the key to achieving your goals.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Will there be any doubt clearing Classes held in Classes?</h3>
+                <div class="faq-content">
+                  <p>Doubt clearing sessions are scheduled everyday. Student's can ask there doubts.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>What are the strengths of GET READY?</h3>
+                <div class="faq-content">
+                  <p>Its highly qualified &amp; experienced teachers, enriched study materials, state-of-the-art
+                    infrastructure, research
+                    work and a scientific &amp; unique coaching methodology are the strengths behind the huge success of
+                    GET READY.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Do you provide any job placement assistance after completing the
+                  training?</h3>
+                <div class="faq-content">
+                  <p>Yes, we offer job placement assistance to help our students
+                    secure employment opportunities post-training. Our career
+                    support services include resume building workshops, interview
+                    preparation, networking events, and connections with leading
+                    employers in various industries.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Are there any prerequisites for enrolling in your training programs?</h3>
+                <div class="faq-content">
+                  <p>While some of our advanced courses may have specific prerequisites,
+                    many of our training programs are open to individuals of all
+                    backgrounds
+                    and experience levels. Our admissions team can help assess your
+                    eligibility and recommend the most suitable program for you based on
+                    your qualifications and goals.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Get Ready</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>51/5/13, Bidyatan Sarani,</p>
+            <p> P.O. Alambazar & P.S. Baranagar, </p>
+            <p>Dist. North 24 Parganas, Pin. 700035, W.B.</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 91237 72360</span></p>
+            <p><strong>Email:</strong> <span>info@gogetready.in</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about-us.html">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#course">Course</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="contact-us.html">Contact Us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h4>Our Courses</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="gov-courses.html">Govt. Job Preparation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="corporate-job.html">Corporate Job Preparation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="gov-courses.html#sscCourseSection">SSC</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="gov-courses.html#bankingCourseSection">Banking</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-3 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Follow us on our social networks!!</p>
+          <div class="social-links d-flex">
+            <a href="http://x.com/gogetready19?t=upzANLBKXdfzvkWMwHmHFg&s=08" target="_blank"><i
+                class="bi bi-twitter-x"></i></a>
+            <a href="http://facebook.com/profile.php?id=61561252075491&mibextid=ZbWKwL" target="_blank"><i
+                class="bi bi-facebook"></i></a>
+            <a href="http://instagram.com/go.getready?utm_source=qr&igsh=MXNyM3hkdTZ5cDcwNQ==" target="_blank"><i
+                class="bi bi-instagram"></i></a>
+            <a href="http://linkedin.com/in/get-ready-b5b613314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Get Ready</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://argha713.github.io/Portfolio/" target="_blank">Argha Sarkar</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <div class="whatsapp-fixed">
+    <a class="whatsapp_chat" target="_blank" href="https://wa.me/919123772360">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </div>
+
+  <div class="whatsapp-fixed">
+    <a class="phone" target="_blank" href="tel:+919123772360">
+      <i class="bi bi-telephone"></i>
+    </a>
+  </div>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+
+
+
+  <script type="text/javascript">
+    function closepopup() {
+      document.getElementById('overlay').style.display = 'none';
+    }
+    function openpopup() {
+      document.getElementById('overlay').style.display = 'block';
+    }
+  </script>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+  <script src="../assets/js/course-data.js"></script>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSD7ZWDL" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+</body>
+
+</html>
