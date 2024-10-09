@@ -3214,7 +3214,7 @@ a.phone {
 .blog-details .btn-enrollCourse:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-size: 22px;
+  font-size: 16px;
   padding: 8px 25px;
   border-radius: 50px;
   transition: 0.3s;
@@ -3226,6 +3226,12 @@ a.phone {
 .blog-details .btn-enrollCourse:focus:hover {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+@media (max-width: 1199px) {
+  .btn-enrollCourse {
+    font-size: 12px !important;
+  }
 }
 
 
@@ -3343,6 +3349,13 @@ a.phone {
 .blog-details .post-img {
   margin: -30px -30px 20px -30px;
   overflow: hidden;
+}
+
+.blog-details .add-img {
+  /* margin: -30px -30px 20px -30px; */
+  display: flex;
+  overflow: hidden;
+  justify-content: center
 }
 
 .blog-details .title {
@@ -3835,4 +3848,65 @@ a.phone {
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+
+
+.marquee-bg {
+  background: #ED2628;
+  padding: 15px 0;
+  display: block;
+}
+
+.marquee-bg .text-moving {
+  padding: 6px;
+  padding-bottom: 0px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.marquee-bg .text-moving a {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.marquee-bg .text-moving a:hover {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #000;
+  font-size: 25px;
+}
+
+.live-update-title {
+  background: #1a1a1a none repeat scroll 0 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 19px;
+  text-transform: uppercase;
+  width: 140px;
+  position: absolute;
+  z-index: 1;
+}
+
+.live-update-title:before {
+  border-color: transparent transparent transparent #1a1a1a;
+  border-style: solid;
+  border-width: 3.5px 0 3.5px 5px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -5px;
+  top: 43%;
+  width: 0;
+}
+
+table thead tr th {
+  background-color: var(--accent-color) !important;
+  color: #fff !important;
+}
+
+.has-text-align-center {
+  text-align: center;
 }
