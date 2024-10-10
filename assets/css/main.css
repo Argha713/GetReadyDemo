@@ -3902,6 +3902,27 @@ a.phone {
   width: 0;
 }
 
+/* Mobile marquee */
+@media (max-width: 1199px) {
+
+  .marquee-bg .text-moving {
+    font-size: 16px;
+  }
+
+  .marquee-bg .text-moving a:hover {
+    font-size: 20px;
+  }
+
+
+  .live-update-title {
+    display: none;
+  }
+
+}
+
+
+
+
 table thead tr th {
   background-color: var(--accent-color) !important;
   color: #fff !important;
