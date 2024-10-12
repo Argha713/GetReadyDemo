@@ -1,123 +1,63 @@
 const blogs = [
     {
         id: 1,
-        image: "assets/img/blogs/nabard-office-attendent-recuritment-2024.png",
-        category: "Nabard",
-        title: "NABARD Office Attendant Recruitment Notification 2024",
+        image: "https://gogetready.in/assets/img/blogs/rrb-ntpc-nitification-2024.svg",
+        category: "RRB NTPC",
+        title: "RRB NTPC 2024 Notification Out, Check All Details Before Apply",
         author: "Admin",
         authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
+        date: "2024-10-05",
+        blogLink: "https://gogetready.in/blogs/rrb-ntpc-2024-notification.html"
     },
     {
         id: 2,
-        image: "assets/img/blogs/RBI-Grade-B-Cut-Off-2024.png",
+        image: "https://gogetready.in/assets/img/blogs/rrb-ntpc-previous-year-cutoff.svg",
         category: "RBI",
-        title: "RBI Grade B Cut Off 2024 Out. Check Prelims Cut Off Marks",
+        title: "RRB NTPC Cut Off 2024, Category Wise Previous Year Cut Off",
         author: "Admin",
         authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
+        date: "2024-10-10",
+        blogLink: "https://gogetready.in/blogs/rrb-ntpc-cut-off.html"
     },
     {
         id: 3,
-        image: "assets/img/blogs/IBPS-Clerk-Result-2024-1.png",
-        category: "IBPS",
-        title: "IBPS Clerk Result 2024 Out, Direct Link to Download Result",
+        image: "https://gogetready.in/assets/img/blogs/ssc-gd-notification-2025.svg",
+        category: "SSC GD",
+        title: "SSC GD 2025 Notification Out, Check All Details Before Apply",
         author: "Admin",
         authorImage: "assets/img/logo.svg",
-        date: "2024-10-01",
-        blogLink: "irdai-exam-date-031024.html"
+        date: "2024-10-08",
+        blogLink: "https://gogetready.in/blogs/ssc-gd-constable-2025-notification.html"
     },
     {
         id: 4,
-        image: "assets/img/blogs/IRDAI-Assistant-Manager-Exam-Date-2024.png",
-        category: "IRDAI",
-        title: "IRDAI Assistant Manager Exam Date 2024 Out",
+        image: "https://gogetready.in/assets/img/blogs/ssc-gd-selection-process.svg",
+        category: "SSC GD",
+        title: "SSC GD Selection Process 2025, CBT, PET, PST, Medical Exam",
         author: "Admin",
         authorImage: "assets/img/logo.svg",
-        date: "2024-10-03",
-        blogLink: "irdai-exam-date-031024.html"
+        date: "2024-10-11",
+        blogLink: "https://gogetready.in/blogs/SSC-GD-Selection-Process.html"
     },
     {
         id: 5,
-        image: "assets/img/blog/blog-5.jpg",
-        category: "Politics",
-        title: "Accusamus quaerat aliquam qui debitis facilis consequatur",
+        image: "https://gogetready.in/assets/img/blogs/Bank-Exam-Preparation-Tips.svg",
+        category: "General",
+        title: "How Can Coaching Help You Achieve Hard Goals?",
         author: "Admin",
         authorImage: "assets/img/logo.svg",
         date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
+        blogLink: "https://gogetready.in/blogs/How-Can-Coaching-Help-You-Achieve-Hard-Goals.html"
     },
     {
         id: 6,
-        image: "assets/img/blog/blog-6.jpg",
-        category: "Entertainment",
-        title: "Distinctio provident quibusdam numquam aperiam aut",
+        image: "https://gogetready.in/assets/img/blogs/Bank-Exam-Preparation-Tips.svg",
+        category: "General",
+        title: "Bank Exam Preparation Tips For Beginners, Study Plan",
         author: "Admin",
         authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
-    },
-    {
-        id: 7,
-        image: "assets/img/blog/blog-1.jpg",
-        category: "Politics",
-        title: "Dolorum optio tempore voluptas dignissimos",
-        author: "Admin",
-        authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
-    },
-    {
-        id: 8,
-        image: "assets/img/blog/blog-2.jpg",
-        category: "Sports",
-        title: "Nisi magni odit consequatur autem nulla dolorem",
-        author: "Admin",
-        authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
-    },
-    {
-        id: 9,
-        image: "assets/img/blog/blog-3.jpg",
-        category: "Entertainment",
-        title: "Possimus soluta ut id suscipit ea ut in quo quia et soluta",
-        author: "Admin",
-        authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
-    },
-    {
-        id: 10,
-        image: "assets/img/blog/blog-4.jpg",
-        category: "Sports",
-        title: "Non rem rerum nam cum quo minus olor distincti",
-        author: "Admin",
-        authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
-    },
-    {
-        id: 11,
-        image: "assets/img/blog/blog-5.jpg",
-        category: "Politics",
-        title: "Accusamus quaerat aliquam qui debitis facilis consequatur",
-        author: "Admin",
-        authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
-    },
-    {
-        id: 12,
-        image: "assets/img/blog/blog-6.jpg",
-        category: "Entertainment",
-        title: "Distinctio provident quibusdam numquam aperiam aut",
-        author: "Admin",
-        authorImage: "assets/img/logo.svg",
-        date: "2024-10-02",
-        blogLink: "irdai-exam-date-031024.html"
+        date: "2024-10-01",
+        blogLink: "https://gogetready.in/blogs/struggling-with-banking-prep.html"
     },
     // Add 14 more blogs here to make 20 in total.
     // Make sure to add images, category, title, author, and dates in the same format.
