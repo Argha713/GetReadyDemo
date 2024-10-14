@@ -59,6 +59,46 @@ const blogs = [
         date: "2024-10-01",
         blogLink: "https://gogetready.in/blogs/struggling-with-banking-prep.html"
     },
+    {
+        id: 7,
+        image: "https://www.gogetready.in/assets/img/blogs/uiic-2024-notification.png",
+        category: "UIIC AO",
+        title: "UIIC AO Recruitment 2024, Notification Out for 200 Posts",
+        author: "Admin",
+        authorImage: "assets/img/logo.svg",
+        date: "2024-10-14",
+        blogLink: "https://gogetready.in/blogs/UIIC-AO-Recruitment-2024.html"
+    },
+    {
+        id: 8,
+        image: "https://www.gogetready.in/assets/img/blogs/uiic-ao-2024-cutoff.png",
+        category: "UIIC AO",
+        title: "UIIC AO Cut Off 2024, Category Wise Previous Year Cut Off Marks",
+        author: "Admin",
+        authorImage: "assets/img/logo.svg",
+        date: "2024-10-14",
+        blogLink: "https://gogetready.in/blogs/uiic-ao-cut-off-2024.html"
+    },
+    {
+        id: 9,
+        image: "https://gogetready.in/assets/img/blogs/uiic-ao-2024-syllabus.png",
+        category: "UIIC AO",
+        title: "UIIC AO Syllabus 2024, Exam Pattern, Download PDF",
+        author: "Admin",
+        authorImage: "assets/img/logo.svg",
+        date: "2024-10-14",
+        blogLink: "https://gogetready.in/blogs/uiic-ao-syllabus.html"
+    },
+    {
+        id: 10,
+        image: "https://www.gogetready.in/assets/img/blogs/uiic-ao-2024-salary.png",
+        category: "UIIC AO",
+        title: "UIIC AO Salary 2024, Pay Scale, Salary Structure",
+        author: "Admin",
+        authorImage: "assets/img/logo.svg",
+        date: "2024-10-14",
+        blogLink: "https://gogetready.in/blogs/uiic-ao-salary-2024.html"
+    },
     // Add 14 more blogs here to make 20 in total.
     // Make sure to add images, category, title, author, and dates in the same format.
 ];
