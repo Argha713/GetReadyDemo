@@ -20,7 +20,7 @@ function renderBlogs(page = 1) {
           </div>
           <p class="post-category">${blog.category}</p>
           <h2 class="title">
-            <a href="blogs/${blog.blogLink}">${blog.title}</a>
+            <a href="${blog.blogLink}">${blog.title}</a>
           </h2>
           <div class="d-flex align-items-center">
             <img src="${blog.authorImage}" alt="" class="img-fluid post-author-img flex-shrink-0">
