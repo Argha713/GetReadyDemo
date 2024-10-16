@@ -99,6 +99,16 @@ const blogs = [
         date: "2024-10-14",
         blogLink: "https://gogetready.in/blogs/uiic-ao-salary-2024.html"
     },
+    {
+        id: 11,
+        image: "https://www.gogetready.in/assets/img/blogs/ssc-mts-admit-card-2024.png",
+        category: "SSC MTS",
+        title: "SSC MTS Admit Card 2024 Released, Download Hall Ticket PDF",
+        author: "Admin",
+        authorImage: "assets/img/logo.svg",
+        date: "2024-10-16",
+        blogLink: "https://gogetready.in/blogs/ssc-mts-admit-card-2024.html"
+    },
     // Add 14 more blogs here to make 20 in total.
     // Make sure to add images, category, title, author, and dates in the same format.
 ];
