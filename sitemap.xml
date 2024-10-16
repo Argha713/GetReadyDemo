@@ -1,182 +1,280 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-  <loc>https://gogetready.in/</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://www.gogetready.in/</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/FreeCareerCounsiling.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/logo2.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/hero-1.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/course/gtrdCourse1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/course/gtrdCourse2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/course/gtrdCourse3.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/course/gtrdCourse4.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/icons/exams/ssc.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/icons/exams/ibps.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/icons/exams/sbi.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/icons/exams/rbi.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/icons/exams/lic.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/icons/exams/railway.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/cta-bg.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/Education.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/benifits1.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/benifits2.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/benifitss3.webp</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/index.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/gov-courses.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/gov-courses.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/corporate-job.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/add-block/2.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/add-block/4.png</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/corporate-job.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/studentsCorner/session-plan.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/studentsCorner/assets/img/session-plan.svg</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/studentsCorner/session-plan.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/studentsCorner/exam-tips.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/studentsCorner/assets/img/exam-tips.svg</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/studentsCorner/exam-tips.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/studentsCorner/interview-tips.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/studentsCorner/interview-tips.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/studentsCorner/gd-pi-tips.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/studentsCorner/gd-pi-tips.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/about-us.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/about/InterThumb.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/about/MissionThumb.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/about/VissionThumb.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/about/OTC_directors_message.webp</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/about-us.html</loc>
-  <lastmod>2024-10-12T09:46:37+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/our-methodology.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/methodology/InterThumb.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/methodology/ContinuousThumb.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/methodology/ResearchedThumb.webp</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/methodology/FuturisticThumb.webp</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/our-methodology.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/blogs.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/contact-us.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/contact-us.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/UIIC-AO-Recruitment-2024.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/uiic-2024-notification.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/one-on-one-counseling.png</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/blogs/rrb-ntpc-cut-off.html</loc>
-  <lastmod>2024-10-13T03:43:14+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/rrb-ntpc-cut-off.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/rrb-ntpc-previous-year-cutoff.svg</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/blogs/rrb-ntpc-2024-notification.html</loc>
-  <lastmod>2024-10-13T03:43:14+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/rrb-ntpc-2024-notification.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/rrb-ntpc-nitification-2024.svg</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/blogs/ssc-gd-constable-2025-notification.html</loc>
-  <lastmod>2024-10-13T03:43:14+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/ssc-gd-constable-2025-notification.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/ssc-gd-notification-2025.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/ssc-gd-2025/image-36.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/ssc-gd-2025/image-15.png</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/blogs/SSC-GD-Selection-Process.html</loc>
-  <lastmod>2024-10-13T03:43:14+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/SSC-GD-Selection-Process.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/ssc-gd-selection-process.svg</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/blogs/struggling-with-banking-prep.html</loc>
-  <lastmod>2024-10-13T03:43:14+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/struggling-with-banking-prep.html</loc>
+	<lastmod>2024-10-16T17:00:52+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/Bank-Exam-Preparation-Tips.svg</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/blogs/How-Can-Coaching-Help-You-Achieve-Hard-Goals.html</loc>
-  <lastmod>2024-10-13T03:43:14+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/assets/pdf/UIIC-AO-Notification-2024.pdf</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/ssc-coaching-in-kolkata.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/uiic-ao-syllabus.html</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/uiic-ao-2024-syllabus.png</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/banking-coaching-in-kolkata.html</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/uiic-ao-cut-off-2024.html</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/uiic-ao-2024-cutoff.png</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/uiic-ao-cut-off-2024.html</loc>
-  <lastmod>2024-10-14T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/blogs/uiic-ao-salary-2024.html</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://www.gogetready.in/assets/img/blogs/uiic-ao-2024-salary.png</image:loc>
+	</image:image>
 </url>
 <url>
-  <loc>https://gogetready.in/UIIC-AO-Recruitment-2024.html</loc>
-  <lastmod>2024-10-14T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/assets/pdf/rrb-ntpc-cbt1-cutoff.pdf</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/uiic-ao-salary-2024.html</loc>
-  <lastmod>2024-10-14T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/assets/pdf/RRB-NTPC-CBT2-Cut-Off-2022.pdf</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/uiic-ao-syllabus.html</loc>
-  <lastmod>2024-10-14T09:46:38+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.gogetready.in/assets/pdf/RRB-NTPC-Recruitment-2024-Notice.pdf</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/assets/pdf/rrb-ntpc-cbt1-cutoff.pdf</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.gogetready.in/assets/pdf/RRB%20NTPC%20CEN%20052024.pdf</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/assets/pdf/RRB-NTPC-CBT2-Cut-Off-2022.pdf</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.gogetready.in/assets/pdf/Final-CEN-06-2024-Undergraduate-English.pdf</loc>
+	<lastmod>2024-10-16T17:00:58+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/assets/pdf/RRB-NTPC-Recruitment-2024-Notice.pdf</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.gogetready.in/assets/pdf/ssc-gd-2025-notification.pdf</loc>
+	<lastmod>2024-10-16T17:00:59+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/assets/pdf/RRB%20NTPC%20CEN%20052024.pdf</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.gogetready.in/assets/pdf/ssc-gd-policedevison_17062021_0.pdf</loc>
+	<lastmod>2024-10-16T17:00:59+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/assets/pdf/Final-CEN-06-2024-Undergraduate-English.pdf</loc>
-  <lastmod>2024-10-12T09:46:37+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.gogetready.in/assets/pdf/Bank-Exam-Preparation-Study-Plan.pdf</loc>
+	<lastmod>2024-10-16T17:00:59+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://gogetready.in/assets/pdf/ssc-gd-2025-notification.pdf</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.gogetready.in/assets/pdf/UIIC-AO-Syllabus.pdf</loc>
+	<lastmod>2024-10-16T17:01:01+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
-<url>
-  <loc>https://gogetready.in/assets/pdf/ssc-gd-policedevison_17062021_0.pdf</loc>
-  <lastmod>2024-10-12T09:46:38+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gogetready.in/assets/pdf/Bank-Exam-Preparation-Study-Plan.pdf</loc>
-  <lastmod>2024-10-12T09:46:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gogetready.in/assets/pdf/UIIC-AO-Syllabus.pdf</loc>
-  <lastmod>2024-10-12T09:46:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gogetready.in/assets/pdf/UIIC-AO-Notification-2024.pdf</loc>
-  <lastmod>2024-10-12T09:46:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
 </urlset>
